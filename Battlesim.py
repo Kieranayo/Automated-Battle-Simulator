@@ -51,13 +51,13 @@ def checks(mobhp):
 def attack():
      if (charAttackChance == 1):
           print('You attacked for %d' % charattack + '\n')
-          mobhp - charattack
+          mobhp -= charattack
           time.sleep(1)
      else:
           print('You swing and miss')
      if (mobattackchance == 2):
           print('The Monster attacked for %d' % mobattack + '\n')
-          chp - mobattack
+          chp -= mobattack
           time.sleep(1)
      else:
           print ('The monster swings and misses')
